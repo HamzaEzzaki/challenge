@@ -21,7 +21,7 @@ export default defineNuxtConfig({
       link: [
         {
           rel: 'stylesheet',
-          href: 'https://fonts.google.com/?query=Avenir',
+          href: 'https://fonts.googleapis.com/css2?family=Avenir:wght@100;300;400;500;700&display=swap',
         },
       ],
     },
