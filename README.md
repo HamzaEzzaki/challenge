@@ -1,3 +1,10 @@
+# Screenshots
+Here’s what the app looks like:
+![desktop view ](./assets/image/scrn.png)
+
+![ mobile view](./assets/image/scrn1.png)
+
+
 # Nuxt Minimal Starter
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
