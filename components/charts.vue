@@ -1,6 +1,7 @@
 
   <template>
     <div :class="[' ', ' ', 'rounded-md', , 'p-2']">
+      <client-only>
         <apexchart
           type="area"
           height="50"
@@ -8,6 +9,7 @@
           :options="spark3Options"
           :series="spark3Options.series"
         ></apexchart>
+      </client-only>
     </div>
   </template>  
 
