@@ -19,7 +19,7 @@ export const useAnalyticsStore = defineStore('analytics', {
       this.error = null;
     
       try {
-        const response = await $fetch(`/api/analytics?from=${from}&to=${to}`, {
+        const response = await $fetch(`https://jsonplaceholder.leadsbounty.com/analytics?from=${from}&to=${to}`, {
           headers: {
             'Content-Type': 'application/json',
           },
@@ -57,7 +57,7 @@ export const useAnalyticsStore = defineStore('analytics', {
       this.error = null;
     
       try {
-          const response = await $fetch(`/api/followers`, {
+          const response = await $fetch(`https://jsonplaceholder.leadsbounty.com/followers`, {
               headers: {
                 'Content-Type': 'application/json',
               }
@@ -75,7 +75,7 @@ export const useAnalyticsStore = defineStore('analytics', {
       this.error = null;
     
       try {
-          const response = await $fetch(`/api/activities`, {
+          const response = await $fetch(`https://jsonplaceholder.leadsbounty.com/activities`, {
               headers: {
                 'Content-Type': 'application/json',
               }
@@ -93,7 +93,7 @@ export const useAnalyticsStore = defineStore('analytics', {
         this.error = null;
       
         try {
-            const response = await $fetch(`/api/analytics?from=${from}&to=${to}`, {
+            const response = await $fetch(`https://jsonplaceholder.leadsbounty.com/analytics?from=${from}&to=${to}`, {
                 headers: {
                   'Content-Type': 'application/json',
                 }
@@ -211,7 +211,7 @@ export const useAnalyticsStore = defineStore('analytics', {
       this.error = null;
     
       try {
-        const response = await $fetch(`/api/analytics?from=${from}&to=${to}`, {
+        const response = await $fetch(`https://jsonplaceholder.leadsbounty.com/analytics?from=${from}&to=${to}`, {
           headers: {
             'Content-Type': 'application/json',
           },
