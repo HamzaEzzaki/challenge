@@ -12,7 +12,7 @@ export const useUserStore = defineStore('user', {
     async fetchUserData() {
       this.loading = true
       try {
-        const response = await $fetch(`https://jsonplaceholder.leadsbounty.com/account`, {
+        const response = await $fetch(`/api/account`, {
           headers: {
             'Content-Type': 'application/json',
           }
