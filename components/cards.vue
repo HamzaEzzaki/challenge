@@ -1,6 +1,6 @@
 <template>
   <div class="p-2 ">
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 tracking-wide">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 tracking-wide">
       <div v-for="metric in analyticsStore.metrics" :key="metric.title" class="bg-customPrimary-500 w-full min-h-[120px] p-4 rounded-xl">
         <div class="flex items-center mb-3">
           <Icon :name="'tabler:point-filled'" :class="['w-4', 'h-4', 'mr-2', metric.color]" />
